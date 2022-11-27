@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Web page CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>SuperPark</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+    <div class="container flex flex-row justify-between items-center mx-auto px-6">
+      <span class="dot"></span>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul
+          class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium
+           md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#"
+              class="block py-2 pr-4 pl-3 text-white bg-fuchsia-900 rounded md:bg-transparent md:text-fuchsia-900 md:p-0 dark:text-white"
+              aria-current="page">PUISTOT</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 pr-4 pl-3 text-white bg-fuchsia-900 rounded md:bg-transparent md:text-fuchsia-900 md:p-0 dark:text-white"
+              aria-current="page">SYNTYMAPAIVAT</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 pr-4 pl-3 text-white bg-fuchsia-900 rounded md:bg-transparent md:text-fuchsia-900 md:p-0 dark:text-white"
+              aria-current="page">AKTIVITEETIT</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 pr-4 pl-3 text-white bg-fuchsia-900 rounded md:bg-transparent md:text-fuchsia-900 md:p-0 dark:text-white"
+              aria-current="page">RYHMLLE</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 pr-4 pl-3 text-white bg-fuchsia-900 rounded md:bg-transparent md:text-fuchsia-900 md:p-0 dark:text-white"
+              aria-current="page">YRITYKSILLE</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 pr-4 pl-3 text-white bg-fuchsia-900 rounded md:bg-transparent md:text-fuchsia-900 md:p-0 dark:text-white"
+              aria-current="page">OTTA YHTETTA</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 pr-4 pl-3 text-white bg-fuchsia-900 rounded md:bg-transparent md:text-fuchsia-900 md:p-0 dark:text-white"
+              aria-current="page">UNITED</a>
+          </li>
+          <li class="flex flex-row">
+            <a href="#"
+              class="block py-2 pr-4 pl-3 text-white bg-gray-700 rounded md:bg-transparent md:text-gray-700 md:p-0 dark:text-white"
+              aria-current="page"> FI</a>
+            <span class="px-2"> / </span>
+            <a href="#"
+              class="block py-2 pr-4 pl-3 text-white bg-gray-700 rounded md:bg-transparent md:text-gray-700 md:p-0 dark:text-white"
+              aria-current="page"> EN</a>
+            <span class="px-2"> / </span>
+            <a href="#"
+              class="block py-2 pr-4 pl-3 text-white bg-gray-700 rounded md:bg-transparent md:text-gray-700 md:p-0 dark:text-white"
+              aria-current="page">SV</a>
+            <span class="px-2"> / </span>
+            <a href="#"
+              class="block py-2 pr-4 pl-3 text-white bg-gray-700 rounded md:bg-transparent md:text-gray-700 md:p-0 dark:text-white"
+              aria-current="page">RU</a>
+          </li>
+          <li>
+           
+          </li>
+        </ul>
+        
+      </div>
+      <button type="button" class="hidden md:block focus:outline-none text-yellow-400 bg-fuchsia-900 hover:bg-fuchsia-800 focus:ring-4 focus:ring-fuchsia-300 font-medium rounded-lg text-sm px-5 
+      py-2.5 mb-2 dark:bg-fuchsia-600 dark:hover:bg-fuchsia-900 dark:focus:ring-fuchsia-900">OSTA
+      LIPUT</button>
+    </div>
+  </nav>
+
+  <!-- Welcome section -->
+  <div class="flex flex-wrap flex-row">
+    <div class="basis-1/2 flex-col justify-center content-center align-middle inline-flex">
+      <div class="flex-row content-end mx-6 p-6">
+        <p class="text-fuchsia-600 text-4xl font-bold">
+          WELCOME TO SUPERMARK
+        </p>
+        <p class="text-fuchsia-600">
+          SuperPark is spreading its wings all over the country. Now there are already 13 SuperParks in Finland.
+        </p>
+      </div>
+      <div class="md:flex flex-row mx-6 mt-4 p-6">
+        <button type="button" class="focus:outline-none text-yellow-400 bg-fuchsia-900 hover:bg-fuchsia-800 focus:ring-4 focus:ring-fuchsia-300 font-medium rounded-lg text-sm px-5 
+        py-2.5 mb-2 dark:bg-fuchsia-600 dark:hover:bg-fuchsia-900 dark:focus:ring-fuchsia-900">NEAREST PARK</button>
+        <button type="button"
+          class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-fuchsia-900 focus:outline-none bg-white rounded-lg hover:bg-fuchsia-100 hover:text-blue-900 focus:z-10 focus:ring-4 
+        focus:ring-fuchsia-200 dark:focus:ring-fuchsia-900 dark:bg-fuchsia-800 dark:text-fuchsia-400 dark:border-fuchsia-600 dark:hover:text-white dark:hover:bg-fuchsia-900">WATCH
+          VIDEO</button>
+          <img class="w-8 h-8" src="assets/images/play-button.png">
+      </div>
+    </div>
+    <div class="flex-col max-w-sm mt-10 justify-center">
+      <img src="assets/images/right.png">
+    </div>
+  </div>
+  <div class="">
+    <img class="h-20" src="assets/images/Polygon2.png">
+  </div>
+
+
+
+
+
+  <!-- Video section -->
+  <div class="flex flex-row bg-cover max-h-min bg-center bg-[url('assets/images/background.png')] p-10 relative">
+    <section class="container mx-auto relative">
+      <img class="object-contain mx-auto scale-75" src="assets/images/childs.png" alt="screenshot">
+      <img class="scale-50 absolute md:top-1/2 md:left-1/2 md:-mx-10 md:-my-8 top-1/2 left-1/2 -mx-14 -my-12" src="assets/images/play-btn.png" alt="screenshot">
+    </section>
+    <div class="absolute -bottom-20 -right-10 scale-50 mb-5 2xl:scale-75 2xl:bottom-0 2xl:right-1/4 xl:scale-75 xl:bottom-0 xl:right-20 xl:mr-6 md:bottom-0 md:right-20">
+      <img src="assets/images/polygon.png" class="">
+    </div>
+  </div>
+
+
+
+
+  <!-- Lightbox image gallery -->
+  <div class="">
+    <img class="h-20" src="assets/images/footer-pol-left.png">
+  </div>
+  <div class="flex flex-wrap flex-row py-10  gap-10 justify-center">
+    <div class="flex-col flex justify-center">
+      <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="assets/images/placeholder3.png" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-fuchsia-900 dark:text-white">Noteworthy technology
+              acquisitions 2021</h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+            acquisitions of 2021 so far, in reverse chronological order.</p>
+          <a href="#"
+            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-teal-300 bg-white rounded-lg hover:bg-fuchsia-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Lue Lisaa
+            <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+             >
+              <path fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="flex-col flex justify-center">
+      <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="assets/images/placeholder3.png" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-fuchsia-900 dark:text-white">Noteworthy technology
+              acquisitions 2021</h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+            acquisitions of 2021 so far, in reverse chronological order.</p>
+          <a href="#"
+            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-teal-300 bg-white rounded-lg hover:bg-fuchsia-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Lue lisaa
+            <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+             >
+              <path fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-col flex justify-center">
+      <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-lg" src="assets/images/placeholder3.png" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-fuchsia-900 dark:text-white">Noteworthy technology
+              acquisitions 2021</h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+            acquisitions of 2021 so far, in reverse chronological order.</p>
+          <a href="#"
+            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-teal-300 bg-white rounded-lg hover:bg-fuchsia-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Lue lisaa
+            <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
+             >
+              <path fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-row-reverse justify-center relative">
+    <button type="button" class="focus:outline-none text-yellow-400 bg-fuchsia-900 hover:bg-fuchsia-800 focus:ring-4 focus:ring-fuchsia-300 font-medium rounded-lg text-sm px-5 
+        py-2.5 mb-2 dark:bg-fuchsia-600 dark:hover:bg-fuchsia-900 dark:focus:ring-fuchsia-900">LISAA UUTISIA</button>
+    <img class="h-20 float-right absolute right-0" src="assets/images/footer-pol-right.png">
+
+  </div>
+</body>
+
+</html>
